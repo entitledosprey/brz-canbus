@@ -1,0 +1,132 @@
+== bits with 1-30 toggles, with context at the first 4 edges
+  0D0 5.6 2x: 433.2s->1 v2074 rpm6724 cl0 br0 ped250 | 435.0s->0 v2178 rpm5647 cl1 br0 ped24
+  0D1 1.3 2x: 432.9s->1 v2049 rpm6621 cl0 br0 ped250 | 437.3s->0 v2046 rpm3191 cl1 br10 ped0
+  0D1 2.4 12x: 131.8s->1 v886 rpm2256 cl1 br16 ped0 | 133.5s->0 v539 rpm1246 cl1 br15 ped0 | 138.9s->1 v404 rpm1043 cl1 br16 ped0 | 139.9s->0 v192 rpm828 cl1 br15 ped0
+  0D2 2.0 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 2.1 16x: 435.2s->0 v2229 rpm5605 cl0 br0 ped250 | 435.3s->1 v2224 rpm5625 cl0 br0 ped250 | 435.3s->0 v2226 rpm5663 cl0 br0 ped250 | 435.3s->1 v2230 rpm5729 cl0 br0 ped250
+  0D2 2.2 8x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.2s->1 v2229 rpm5605 cl0 br0 ped250 | 435.3s->0 v2226 rpm5663 cl0 br0 ped250 | 435.4s->1 v2246 rpm5726 cl0 br0 ped250
+  0D2 2.3 14x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.2s->1 v2229 rpm5605 cl0 br0 ped250 | 435.3s->0 v2224 rpm5625 cl0 br0 ped250 | 435.3s->1 v2230 rpm5729 cl0 br0 ped250
+  0D2 2.4 10x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.3s->1 v2224 rpm5625 cl0 br0 ped250 | 435.3s->0 v2226 rpm5663 cl0 br0 ped250 | 435.4s->1 v2246 rpm5726 cl0 br0 ped250
+  0D2 2.5 6x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.3s->1 v2226 rpm5663 cl0 br0 ped250 | 435.5s->0 v2252 rpm5740 cl0 br0 ped250 | 435.6s->1 v2271 rpm5784 cl0 br0 ped247
+  0D2 2.6 4x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.5s->1 v2252 rpm5740 cl0 br0 ped250 | 435.7s->0 v2283 rpm5816 cl0 br0 ped74 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 2.7 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.7s->1 v2283 rpm5816 cl0 br0 ped74
+  0D2 3.0 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 3.1 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 3.2 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 3.3 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 3.6 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 3.7 2x: 435.2s->0 v2244 rpm5609 cl0 br0 ped249 | 435.8s->1 v2282 rpm5714 cl1 br0 ped0
+  0D2 4.0 2x: 435.2s->1 v2244 rpm5609 cl0 br0 ped249 | 435.8s->0 v2282 rpm5714 cl1 br0 ped0
+  0D3 2.1 2x: 435.2s->1 v2244 rpm5609 cl0 br0 ped249 | 435.8s->0 v2282 rpm5714 cl1 br0 ped0
+  0D4 1.3 2x: 433.3s->1 v2088 rpm6750 cl0 br0 ped250 | 437.4s->0 v2031 rpm3187 cl1 br10 ped0
+  0D4 3.3 2x: 433.2s->1 v2080 rpm6734 cl0 br0 ped250 | 437.4s->0 v2036 rpm3184 cl1 br10 ped0
+  0D4 5.3 2x: 432.9s->1 v2049 rpm6621 cl0 br0 ped250 | 437.3s->0 v2046 rpm3191 cl1 br10 ped0
+  0D4 7.3 4x: 432.9s->1 v2045 rpm6621 cl0 br0 ped250 | 432.9s->0 v2044 rpm6619 cl0 br0 ped250 | 432.9s->1 v2049 rpm6621 cl0 br0 ped250 | 437.3s->0 v2046 rpm3191 cl1 br10 ped0
+  140 0.7 14x: 218.4s->1 v1683 rpm3536 cl0 br0 ped129 | 221.3s->0 v1993 rpm4175 cl0 br0 ped108 | 252.8s->1 v1450 rpm2333 cl0 br0 ped128 | 253.8s->0 v1534 rpm2473 cl0 br0 ped125
+  140 3.4 14x: 220.9s->1 v1949 rpm4096 cl0 br0 ped249 | 221.6s->0 v1975 rpm4088 cl0 br0 ped0 | 221.6s->1 v1953 rpm4116 cl0 br0 ped0 | 221.8s->0 v1960 rpm4081 cl0 br3 ped0
+  140 4.7 14x: 218.4s->1 v1683 rpm3536 cl0 br0 ped129 | 221.3s->0 v1993 rpm4175 cl0 br0 ped108 | 252.8s->1 v1450 rpm2333 cl0 br0 ped128 | 253.8s->0 v1534 rpm2473 cl0 br0 ped125
+  140 5.7 14x: 218.4s->1 v1683 rpm3536 cl0 br0 ped129 | 221.3s->0 v1993 rpm4175 cl0 br0 ped108 | 252.8s->1 v1450 rpm2333 cl0 br0 ped128 | 253.8s->0 v1534 rpm2473 cl0 br0 ped125
+  140 6.7 14x: 218.3s->1 v1667 rpm3505 cl0 br0 ped104 | 221.3s->0 v1993 rpm4182 cl0 br0 ped47 | 253.0s->1 v1465 rpm2363 cl0 br0 ped146 | 253.8s->0 v1534 rpm2473 cl0 br0 ped125
+  141 1.7 1x: 54.1s->0 v0 rpm105 cl1 br0 ped0
+  141 2.0 24x: 126.9s->1 v1016 rpm3282 cl0 br0 ped74 | 127.6s->0 v1121 rpm3633 cl1 br0 ped51 | 184.7s->1 v1468 rpm3086 cl0 br0 ped76 | 185.2s->0 v1522 rpm3198 cl0 br0 ped60
+  141 2.1 24x: 126.9s->1 v1016 rpm3282 cl0 br0 ped74 | 127.6s->0 v1121 rpm3633 cl1 br0 ped51 | 184.7s->1 v1468 rpm3086 cl0 br0 ped76 | 185.2s->0 v1522 rpm3198 cl0 br0 ped60
+  141 5.4 14x: 220.9s->1 v1949 rpm4096 cl0 br0 ped249 | 221.6s->0 v1975 rpm4088 cl0 br0 ped0 | 221.6s->1 v1953 rpm4116 cl0 br0 ped0 | 221.8s->0 v1960 rpm4081 cl0 br3 ped0
+  142 0.0 8x: 424.7s->1 v741 rpm5613 cl0 br0 ped176 | 424.9s->0 v784 rpm6129 cl0 br0 ped115 | 426.7s->1 v1015 rpm4689 cl0 br0 ped249 | 429.5s->0 v1598 rpm7331 cl1 br0 ped35
+  142 0.1 8x: 424.7s->1 v741 rpm5613 cl0 br0 ped176 | 424.9s->0 v784 rpm6129 cl0 br0 ped115 | 426.7s->1 v1015 rpm4689 cl0 br0 ped249 | 429.5s->0 v1598 rpm7331 cl1 br0 ped35
+  142 2.7 20x: 126.9s->1 v1008 rpm3264 cl0 br0 ped73 | 127.5s->0 v1118 rpm3612 cl0 br0 ped70 | 184.7s->1 v1468 rpm3085 cl0 br0 ped75 | 185.1s->0 v1517 rpm3189 cl0 br0 ped73
+  152 6.2 6x: 59.8s->1 v0 rpm1028 cl1 br0 ped0 | 61.9s->0 v0 rpm1320 cl1 br1 ped0 | 66.1s->1 v0 rpm1010 cl1 br0 ped0 | 109.9s->0 v40 rpm927 cl1 br6 ped0
+  152 6.3 2x: 58.3s->0 v0 rpm1040 cl1 br0 ped0 | 706.6s->1 v0 rpm860 cl1 br0 ped0
+  152 7.1 2x: 58.4s->1 v0 rpm1040 cl1 br0 ped0 | 706.6s->0 v0 rpm858 cl1 br0 ped0
+  280 0.1 11x: 134.7s->0 v420 rpm1015 cl1 br0 ped0 | 218.7s->1 v1711 rpm3589 cl0 br0 ped198 | 226.7s->0 v1203 rpm2522 cl0 br0 ped0 | 270.7s->1 v1363 rpm2192 cl0 br0 ped6
+  280 0.2 5x: 134.7s->1 v420 rpm1015 cl1 br0 ped0 | 218.7s->0 v1711 rpm3589 cl0 br0 ped198 | 226.7s->1 v1203 rpm2522 cl0 br0 ped0 | 362.6s->0 v848 rpm1792 cl0 br5 ped0
+  282 0.7 30x: 143.3s->0 v0 rpm874 cl1 br7 ped0 | 146.5s->1 v0 rpm1752 cl1 br0 ped10 | 162.5s->0 v1163 rpm2964 cl0 br0 ped42 | 165.7s->1 v1349 rpm3386 cl1 br0 ped0
+  282 3.0 13x: 204.7s->0 v1199 rpm2519 cl0 br0 ped1 | 219.8s->1 v1834 rpm3852 cl0 br0 ped249 | 234.8s->0 v1468 rpm2367 cl0 br0 ped10 | 249.8s->1 v1329 rpm2138 cl0 br0 ped7
+  282 3.1 8x: 204.7s->1 v1199 rpm2519 cl0 br0 ped1 | 234.8s->0 v1468 rpm2367 cl0 br0 ped10 | 263.6s->1 v1457 rpm2357 cl0 br0 ped45 | 283.4s->0 v1353 rpm2186 cl0 br0 ped13
+  282 3.2 5x: 234.8s->1 v1468 rpm2367 cl0 br0 ped10 | 283.4s->0 v1353 rpm2186 cl0 br0 ped13 | 567.9s->1 v1241 rpm1998 cl0 br0 ped12 | 574.0s->0 v1220 rpm1966 cl0 br0 ped1
+  282 3.3 1x: 283.4s->1 v1353 rpm2186 cl0 br0 ped13
+  282 4.0 24x: 72.2s->0 v41 rpm960 cl1 br0 ped0 | 91.4s->1 v107 rpm931 cl1 br0 ped0 | 107.1s->0 v97 rpm1177 cl1 br0 ped0 | 145.9s->1 v0 rpm880 cl1 br0 ped0
+  282 4.1 10x: 72.2s->0 v41 rpm960 cl1 br0 ped0 | 107.1s->1 v97 rpm1177 cl1 br0 ped0 | 402.8s->0 v60 rpm1908 cl1 br0 ped31 | 467.7s->1 v1509 rpm2429 cl0 br0 ped9
+  282 4.2 7x: 72.2s->0 v41 rpm960 cl1 br0 ped0 | 402.8s->1 v60 rpm1908 cl1 br0 ped31 | 467.7s->0 v1509 rpm2429 cl0 br0 ped9 | 565.9s->1 v1250 rpm2011 cl0 br0 ped13
+  282 4.3 2x: 72.2s->1 v41 rpm960 cl1 br0 ped0 | 673.1s->0 v1183 rpm3826 cl0 br0 ped223
+  282 4.4 1x: 673.1s->1 v1183 rpm3826 cl0 br0 ped223
+  282 5.0 6x: 103.9s->0 v0 rpm873 cl1 br10 ped0 | 143.6s->1 v0 rpm953 cl1 br7 ped0 | 144.6s->0 v0 rpm1043 cl1 br8 ped0 | 355.5s->1 v1240 rpm2598 cl0 br0 ped0
+  282 5.1 3x: 158.5s->0 v969 rpm3147 cl0 br0 ped23 | 161.0s->1 v1074 rpm2877 cl1 br0 ped9 | 209.0s->0 v1060 rpm2230 cl0 br0 ped0
+  284 3.0 2x: 53.3s->1 v0 rpm0 cl1 br0 ped0 | 53.5s->0 v0 rpm0 cl1 br0 ped0
+  284 5.4 2x: 54.5s->1 v0 rpm186 cl1 br0 ped0 | 54.6s->0 v0 rpm167 cl1 br0 ped0
+  284 5.7 3x: 53.4s->0 v0 rpm0 cl1 br0 ped0 | 54.5s->1 v0 rpm186 cl1 br0 ped0 | 54.6s->0 v0 rpm167 cl1 br0 ped0
+  360 1.5 12x: 424.4s->1 v612 rpm4761 cl0 br0 ped91 | 425.1s->0 v777 rpm5439 cl1 br0 ped0 | 425.9s->1 v813 rpm3825 cl0 br0 ped170 | 426.0s->0 v837 rpm3880 cl0 br0 ped210
+  360 3.3 4x: 81.6s->1 v0 rpm1002 cl1 br0 ped3 | 124.5s->0 v749 rpm3093 cl1 br0 ped0 | 160.7s->1 v1078 rpm3260 cl1 br0 ped0 | 188.3s->0 v1434 rpm3013 cl0 br0 ped1
+  360 3.4 2x: 124.5s->1 v749 rpm3093 cl1 br0 ped0 | 188.3s->0 v1434 rpm3013 cl0 br0 ped1
+  360 3.5 1x: 188.3s->0 v1434 rpm3013 cl0 br0 ped1
+  360 3.6 1x: 188.3s->0 v1434 rpm3013 cl0 br0 ped1
+  360 3.7 1x: 188.3s->1 v1434 rpm3013 cl0 br0 ped1
+  361 1.5 1x: 55.1s->1 v0 rpm443 cl1 br0 ped0
+  370 1.0 10x: 395.4s->1 v0 rpm812 cl1 br0 ped17 | 395.6s->0 v0 rpm886 cl1 br0 ped16 | 395.6s->1 v0 rpm898 cl1 br0 ped16 | 395.7s->0 v0 rpm937 cl1 br0 ped17
+  370 1.1 2x: 396.9s->1 v48 rpm1214 cl1 br0 ped10 | 396.9s->0 v51 rpm1161 cl1 br0 ped9
+  370 2.0 1x: 55.7s->0 v0 rpm1774 cl1 br0 ped0
+  370 2.1 1x: 55.7s->0 v0 rpm1774 cl1 br0 ped0
+  370 2.5 1x: 55.7s->0 v0 rpm1774 cl1 br0 ped0
+  370 3.0 1x: 55.7s->0 v0 rpm1774 cl1 br0 ped0
+  374 3.0 3x: 52.7s->0 v0 rpm0 cl0 br0 ped0 | 141.8s->1 v0 rpm827 cl1 br7 ped0 | 142.7s->0 v0 rpm806 cl1 br7 ped0
+  375 1.0 3x: 52.7s->0 v0 rpm0 cl0 br0 ped0 | 141.8s->1 v0 rpm827 cl1 br7 ped0 | 142.8s->0 v0 rpm806 cl1 br7 ped0
+  375 3.2 3x: 52.7s->0 v0 rpm0 cl0 br0 ped0 | 141.8s->1 v0 rpm827 cl1 br7 ped0 | 142.8s->0 v0 rpm806 cl1 br7 ped0
+  375 5.6 2x: 103.8s->1 v0 rpm844 cl1 br10 ped0 | 715.9s->0 v0 rpm860 cl0 br0 ped0
+  37A 5.2 2x: 52.7s->0 v0 rpm0 cl0 br0 ped0 | 53.8s->1 v0 rpm0 cl1 br0 ped0
+  37A 5.4 2x: 52.7s->1 v0 rpm0 cl0 br0 ped0 | 53.8s->0 v0 rpm0 cl1 br0 ped0
+  6E2 3.1 1x: 4.1s->0 v0 rpm0 cl0 br0 ped0
+  6E2 3.2 3x: 4.1s->0 v0 rpm0 cl0 br0 ped0 | 342.5s->1 v1322 rpm2136 cl0 br0 ped0 | 684.9s->0 v137 rpm1180 cl1 br0 ped4
+  6E2 3.3 2x: 4.1s->0 v0 rpm0 cl0 br0 ped0 | 684.9s->1 v137 rpm1180 cl1 br0 ped4
+  6E2 3.4 1x: 4.1s->0 v0 rpm0 cl0 br0 ped0
+  6E2 3.7 1x: 4.1s->0 v0 rpm0 cl0 br0 ped0
+  6E2 4.1 1x: 70.3s->0 v38 rpm1008 cl1 br0 ped0
+  6E2 4.2 2x: 278.6s->0 v1328 rpm2132 cl0 br0 ped30 | 630.3s->1 v1081 rpm1740 cl0 br0 ped19
+  6E2 4.3 1x: 278.6s->0 v1328 rpm2132 cl0 br0 ped30
+  6E2 4.4 1x: 278.6s->0 v1328 rpm2132 cl0 br0 ped30
+  6E2 4.5 2x: 70.3s->0 v38 rpm1008 cl1 br0 ped0 | 278.6s->1 v1328 rpm2132 cl0 br0 ped30
+  6E2 4.7 1x: 70.3s->0 v38 rpm1008 cl1 br0 ped0
+  6E2 5.1 1x: 69.3s->0 v42 rpm976 cl1 br0 ped0
+  6E2 5.2 1x: 425.8s->0 v803 rpm3713 cl1 br0 ped135
+  6E2 5.3 1x: 425.8s->0 v803 rpm3713 cl1 br0 ped135
+  6E2 5.4 1x: 425.8s->0 v803 rpm3713 cl1 br0 ped135
+  6E2 5.5 2x: 69.3s->0 v42 rpm976 cl1 br0 ped0 | 425.8s->1 v803 rpm3713 cl1 br0 ped135
+  6E2 5.7 1x: 69.3s->0 v42 rpm976 cl1 br0 ped0
+  6E2 6.1 1x: 58.5s->0 v0 rpm1038 cl1 br0 ped0
+  6E2 6.2 2x: 219.8s->0 v1839 rpm3874 cl0 br0 ped249 | 554.2s->1 v1189 rpm1914 cl0 br0 ped12
+  6E2 6.3 1x: 219.8s->0 v1839 rpm3874 cl0 br0 ped249
+  6E2 6.4 1x: 219.8s->0 v1839 rpm3874 cl0 br0 ped249
+  6E2 6.5 2x: 58.5s->0 v0 rpm1038 cl1 br0 ped0 | 219.8s->1 v1839 rpm3874 cl0 br0 ped249
+  6E2 6.7 1x: 58.5s->0 v0 rpm1038 cl1 br0 ped0
+== calculated gear samples (0 = stopped, clutch in, or between ratios): [(0, 2922), (1, 94), (2, 158), (3, 129), (4, 76), (5, 830), (6, 3126)]
+   rpm/raw histogram near 1st gear: [(6.1, 1), (7.4, 3), (7.5, 8), (7.6, 43), (7.7, 33), (7.8, 7), (7.9, 1), (8.0, 2)]
+   gear 0: 0D3 b4 [(0, 665), (44, 329), (88, 174), (120, 85), (224, 78)] | 280 b0 [(3, 1424), (5, 519), (2, 430), (7, 273)]
+   gear 1: 0D3 b4 [(80, 4), (164, 4), (120, 3), (28, 3), (92, 3)] | 280 b0 [(7, 35), (3, 34), (2, 25)]
+   gear 2: 0D3 b4 [(36, 5), (28, 5), (232, 5), (96, 4), (128, 4)] | 280 b0 [(2, 91), (4, 26), (7, 21), (3, 12)]
+   gear 3: 0D3 b4 [(248, 6), (188, 6), (216, 6), (196, 5), (24, 5)] | 280 b0 [(2, 55), (7, 29), (4, 26), (5, 11)]
+   gear 4: 0D3 b4 [(40, 4), (228, 4), (4, 3), (96, 3), (136, 3)] | 280 b0 [(5, 66), (3, 7), (2, 3)]
+   gear 5: 0D3 b4 [(132, 21), (44, 20), (52, 18), (176, 17), (8, 17)] | 280 b0 [(4, 409), (5, 257), (3, 121), (2, 43)]
+   gear 6: 0D3 b4 [(116, 66), (32, 66), (204, 62), (160, 62), (244, 62)] | 280 b0 [(5, 1054), (4, 812), (2, 616), (3, 524)]
+== signs, while moving with >300 raw of angle. 0D0 angle positive = 138 samples: median yaw -64.5 median b6 -10.0 | negative = 220 samples: median yaw 68.0 median b6 9.0
+   0D0 b7 min/max -52 45 b6 min/max -24 23
+== 430-437 s, every 0.5 s
+  430.0s v1573 rpm5911 cl1 br0 ped0 wheels 1579 1576 1571 1575 0D0 e6 ff 06 00 57 04 04 05 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 84 00 ab 152b6 00 ang -26
+  430.5s v1653 rpm5344 cl0 br0 ped250 wheels 1618 1620 1649 1657 0D0 f1 ff 05 00 57 04 05 e0 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 84 00 c4 152b6 00 ang -15
+  431.0s v1747 rpm5643 cl0 br0 ped250 wheels 1703 1708 1745 1750 0D0 f1 ff 05 00 57 04 03 e7 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 94 00 dd 152b6 00 ang -15
+  431.5s v1820 rpm5906 cl0 br0 ped250 wheels 1783 1790 1820 1821 0D0 eb ff 06 00 34 10 05 e7 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f b0 00 f6 152b6 00 ang -21
+  432.0s v1908 rpm6160 cl0 br0 ped250 wheels 1863 1869 1908 1908 0D0 ce ff 09 00 34 10 05 e2 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f d8 00 0f 152b6 00 ang -50
+  432.5s v1991 rpm6451 cl0 br0 ped250 wheels 1939 1950 1991 1992 0D0 e1 ff 07 00 34 10 09 e6 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 10 00 28 152b6 00 ang -31
+  433.0s v2060 rpm6650 cl0 br0 ped250 wheels 2015 2026 2060 2060 0D0 db ff 08 00 34 10 09 ea 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 54 00 41 152b6 00 ang -37
+  433.5s v2118 rpm6844 cl0 br0 ped250 wheels 2078 2083 2121 2115 0D0 d4 ff 08 00 4e 40 03 ea 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f a0 00 5a 152b6 00 ang -44
+  434.0s v2177 rpm7057 cl0 br0 ped250 wheels 2135 2140 2177 2177 0D0 da ff 0b 00 4e 40 09 f2 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f f8 00 73 152b6 00 ang -38
+  434.5s v2231 rpm7012 cl1 br0 ped0 wheels 2193 2194 2235 2227 0D0 e9 ff 06 00 4e 40 06 f1 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 58 00 8c 152b6 00 ang -23
+  435.0s v2181 rpm5568 cl1 br0 ped97 wheels 2189 2187 2182 2181 0D0 eb ff 04 00 29 1c 03 05 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f b4 00 a5 152b6 00 ang -21
+  435.5s v2258 rpm5763 cl0 br0 ped250 wheels 2221 2228 2258 2258 0D0 e0 ff 06 00 29 1c 07 ed 0D2 00 00 48 30 01 00 00 00 0D3 00 06 c2 0f 14 00 be 152b6 00 ang -32
+  436.0s v2248 rpm5356 cl1 br0 ped0 wheels 2252 2249 2248 2249 0D0 f2 ff 02 00 29 1c 02 05 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 c0 0f 80 00 d7 152b6 00 ang -14
+  436.5s v2182 rpm4342 cl1 br10 ped0 wheels 2182 2179 2181 2184 0D0 ee ff 03 00 29 1c 03 17 0D2 00 00 ff ff 00 00 00 00 0D3 00 06 e0 0f e0 00 f0 152b6 10 ang -18
+== 390-402 s, every 2 s
+  390s v356 rpm1513 cl1 br3 ped0 152 f0 dc 00 00 00 00 00 82 0D3 00 06 c0 0f b0 00 db 375 03 00 00 00 00 40 00 10
+  392s v196 rpm823 cl1 br8 ped0 152 f0 4c 00 00 00 00 10 82 0D3 00 06 e0 0f 5c 00 3f 375 03 00 00 00 00 40 00 10
+  394s v49 rpm822 cl1 br1 ped0 152 f0 9c 00 00 00 00 00 82 0D3 00 06 c0 0f 98 00 a3 375 03 00 00 00 00 40 00 10
+  396s v0 rpm1081 cl1 br0 ped19 152 f0 0c 00 00 00 00 04 82 0D3 00 06 c0 0f a0 00 07 375 03 00 00 00 00 40 00 10
+  398s v104 rpm987 cl1 br0 ped15 152 f0 4c 00 00 00 00 04 82 0D3 00 06 c0 0f c4 00 6b 375 03 00 00 00 00 40 00 10
+  400s v93 rpm1635 cl1 br1 ped0 152 f0 9c 00 00 00 00 14 82 0D3 00 06 e0 0f 04 00 cf 375 03 00 00 00 00 40 00 10
+  402s v0 rpm942 cl1 br0 ped26 152 f0 fc 00 00 00 00 00 82 0D3 00 06 c0 0f 1c 00 33 375 03 00 00 00 00 40 00 10

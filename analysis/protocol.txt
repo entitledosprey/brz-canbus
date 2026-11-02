@@ -1,0 +1,37 @@
+0x000  8B     once Unknown: payload never moved       Seen once, at engine stop: 01 00 00 00 00 00 00 00. Meaning unknown
+0x018  8B    10 ms Big (610 clean carries)            Steering angle (b0-1)
+0x0D0  8B    20 ms Little (579 clean carries)         Steering angle (b0-1), yaw (b2-3), lateral (b6), longitudinal (b7); b4-5 unknown
+0x0D1  4B    20 ms Little (160 clean carries)         Vehicle speed (b0-1), brake pressure (b2)
+0x0D2  8B    20 ms Likely little: b2 moved with b3 fi Zero/FFFF except one 0.6 s event at full throttle; meaning unknown
+0x0D3  7B    20 ms None seen: only single-byte or bit Brake switch (2.5), distance counter (b4 bits 2-7), 2.1 set in the 0x0D2 event
+0x0D4  8B    20 ms Little (692 clean carries)         Wheel speeds FL, FR, RL, RR (b0-7, 16 bits each)
+0x140  8B    10 ms Little (1036 clean carries)        Pedal (b0, b4, b5), clutch (1.7), RPM (b2-3), pedal pressed (3.6), throttle (b6)
+0x141  8B    10 ms Little (3063 clean carries)        RPM (b4-5), driver torque request (b0-1 low 12 bits), estimated torque (b2-3 low 12 bits); flags 5.7, 6.6
+0x142  8B    10 ms Little (1295 clean carries)        Throttle (b2), torque (b0-1 low 12 bits), A/C clutch (1.7)
+0x144  8B    20 ms Unknown: payload never moved       Never changed
+0x152  8B    20 ms None seen: only single-byte or bit Reverse (6.2), parking brake (6.3, inverse at 7.1), brake (6.4), lights (7.2-7.4)
+0x156  8B    20 ms Unknown: payload never moved       All zero, even while driving
+0x280  8B    20 ms None seen: only single-byte or bit A/C request (0.0); other b0 bits unknown
+0x282  8B    60 ms None seen: only single-byte or bit Seatbelt (5.0); 5.1 unknown; b0, b3, b4 slow values, meaning unknown
+0x284  8B   100 ms None seen: only single-byte or bit Clutch start interlock (5.4); 5.7 clear while running
+0x360  8B    50 ms Little (364 clean carries)         Oil temp (b2), coolant temp (b3), both raw - 40 C; b0-1 tracks engine power; b4 tracks torque and MAP
+0x361  8B    50 ms None seen: only single-byte or bit Engine running (1.5)
+0x370  8B    51 ms Little (20 clean carries)          b0-1 rises with steering lock, possibly power steering load; b2-3 set with engine off
+0x372  8B   100 ms None seen: only single-byte or bit Only the counter moves, apart from power changes
+0x374  8B  1000 ms None seen: only single-byte or bit Door (3.0), low beam lamp (1.6)
+0x375  8B  1000 ms None seen: only single-byte or bit Door lock (b0 bits 0-1), lock and unlock presses (2.0, 2.1, 2.7), door (1.0, 3.2), parking lights (3.3)
+0x37A  8B  1001 ms None seen: only single-byte or bit b5 04 or 10, meaning unknown
+0x3D1  8B   120 ms None seen: only single-byte or bit b0 slowly rises, meaning unknown
+0x440  8B   390 ms None seen: only single-byte or bit Network management ring, next node 0x442
+0x442  8B   390 ms None seen: only single-byte or bit Network management ring, next node 0x44D
+0x44D  8B   390 ms None seen: only single-byte or bit Network management ring, next node 0x46C
+0x46C  8B   390 ms None seen: only single-byte or bit Network management ring, next node 0x440
+0x4C1  8B  1000 ms Unknown: payload never moved       Never changed, b0 = 01
+0x4C3  8B  1000 ms Unknown: payload never moved       Never changed, b0 = 03
+0x4C6  8B   999 ms Unknown: payload never moved       Never changed, b0 = 07
+0x4C8  8B  1011 ms Unknown: payload never moved       Never changed, b0 = 09
+0x4DC  8B  1000 ms Unknown: payload never moved       Never changed, b0 = 1D
+0x4DD  8B  1000 ms Unknown: payload never moved       Never changed, b0 = 1E
+0x63B  8B   500 ms Unknown: payload never moved       Never changed: 00 00 FF FF 00 FF FF FF
+0x6E1  8B  1000 ms None seen: only single-byte or bit b0 = A1, its ID's low byte; 5.5 and 5.6 changed once, after engine stop
+0x6E2  8B  1000 ms None seen: only single-byte or bit b0 = A2, its ID's low byte; likely tire pressures in b3-b6, FE until each is received

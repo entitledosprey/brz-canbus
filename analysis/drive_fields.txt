@@ -1,0 +1,43 @@
+== 0D0 flip rate per bit (byte.bit: flips per 1000 frames)
+  b2: 7: 39 6: 40 5: 41 4: 46 3: 61 2: 97 1:176 0:317
+  b3: 7: 39 6: 39 5: 39 4: 39 3: 39 2: 39 1: 39 0: 39
+  b4: 7:  1 6:  1 5:  1 4:  1 3:  2 2:  2 1:  2 0:  2
+  b5: 7:  0 6:  0 5:  1 4:  2 3:  2 2:  1 1:  1 0:  1
+  b6: 7:165 6:165 5:165 4:170 3:188 2:238 1:367 0:449
+  b7: 7: 80 6: 80 5: 82 4: 96 3:146 2:250 1:388 0:457
+== 0D0 Intel field search over bits 32..63: |r| with vyaw (lateral) and d(speed)/dt (longitudinal)
+  lat: [(0.896, 'start 46 len 10'), (0.896, 'start 46 len 9'), (0.896, 'start 46 len 8'), (0.896, 'start 48 len 8'), (0.896, 'start 48 len 7'), (0.896, 'start 48 len 6')]
+  long: [(0.922, 'start 55 len 9'), (0.922, 'start 55 len 8'), (0.922, 'start 54 len 10'), (0.922, 'start 54 len 9'), (0.922, 'start 53 len 11'), (0.922, 'start 53 len 10')]
+== low-cardinality fields: value timeline (seconds from start, up to 14 changes)
+  0D0 b5&40: 3 changes: -0.0s=00 433.2s=40 435.0s=00 
+  375 b5&FF: 3 changes: 0.4s=00 103.8s=40 715.9s=00 
+  152 b6&04: 7 changes: -0.0s=00 59.8s=04 61.9s=00 66.1s=04 109.9s=00 394.7s=04 400.6s=00 
+  152 b7&02: 3 changes: -0.0s=00 58.4s=02 706.6s=00 
+  280 b0&FF: 80 changes: -0.0s=03 99.0s=02 106.2s=03 116.0s=02 126.7s=03 134.7s=05 135.0s=04 143.0s=05 151.7s=04 159.2s=05 166.5s=04 173.7s=05 181.0s=04 189.0s=05 ...
+  284 b3&FF: 3 changes: 0.1s=02 53.3s=03 53.5s=02 
+  282 b5&02: 4 changes: 0.0s=02 158.5s=00 161.0s=02 209.0s=00 
+  361 b1&FF: 2 changes: 0.0s=08 55.1s=28 
+  370 b2&FF: 2 changes: 0.0s=23 55.7s=00 
+  37A b5&FF: 3 changes: 0.1s=04 52.7s=10 53.8s=04 
+  0D2 b4&FF: 3 changes: -0.0s=00 435.2s=01 435.8s=00 
+  0D3 b2&FF: 79 changes: -0.0s=C0 64.9s=E0 65.5s=C0 72.6s=E0 79.8s=C0 96.4s=E0 97.0s=C0 99.2s=E0 104.5s=C0 109.3s=E0 110.3s=C0 114.8s=E0 117.6s=C0 131.3s=E0 ...
+  6E2 b3&FF: 4 changes: 0.7s=FE 4.1s=60 342.5s=64 684.9s=68 
+  6E2 b4&FF: 4 changes: 0.7s=FE 70.3s=5C 278.6s=60 630.3s=64 
+  6E2 b5&FF: 3 changes: 0.7s=FE 69.3s=5C 425.8s=60 
+  6E2 b6&FF: 4 changes: 0.7s=FE 58.5s=5C 219.8s=60 554.2s=64 
+== slow fields start -> end, min, max
+  282 b0: 138 -> 165, min 76, max 251, median 152
+  282 b3: 129 -> 140, min 129, max 140, median 139
+  282 b4: 135 -> 147, min 135, max 147, median 139
+  3D1 b0: 178 -> 241, min 178, max 241, median 198
+  360 b2: 97 -> 136, min 96, max 137, median 126.0
+  360 b3: 102 -> 132, min 100, max 134, median 130.0
+== 0D3 b4 and 0D2 b2-3 vs speed
+  0D3 b4: r speed +0.284 rpm +0.298 |angle| +0.043 common [(0, 736), (44, 394), (88, 244), (28, 146), (120, 146)]
+  0D2 b2-3: r speed +0.064 rpm +0.102 |angle| -0.009 common [(-1, 7329), (12320, 1), (12340, 1), (12360, 1), (12390, 1)]
+== last 150 s of driving: moving segments (speed raw>20)
+  6 segments; last ones: [(63, 65, 49, 1495), (68, 73, 43, 1146), (88, 100, 111, 1271), (106, 142, 1125, 3601), (147, 656, 2283, 7345), (659, 703, 1439, 4616)]
+== scales
+  yaw guess range -127 147
+  field start 55 len 9: range -98..87 slope vs dv -0.04496 m/s2 per bit; slope vs vyaw -0.8589; idle median 0.0
+  field start 46 len 10: range -104..92 slope vs dv +0.00543 m/s2 per bit; slope vs vyaw +9.2798; idle median -4.0

@@ -1,0 +1,47 @@
+first half: best extra lag +0.26 s, mean |rpm error| 20.0
+second half: best extra lag -0.06 s, mean |rpm error| 30.5
+360 b2               Oil Temperature r=+1.000 y=0.9989x-39.45 res95=1.2% | ECT r=+0.887 y=0.6051x+12.69 res95=24.6% | Ethanol Temperature r=-0.832 y=-0.1248x+47.65 res95=38.7%
+360 b3               ECT r=+0.999 y=1x-39.58 res95=1.4% | RPM Limit r=+0.957 y=17.42x+5223 res95=21.6% | Oil Temperature r=+0.886 y=1.298x-80.76 res95=28.5%
+360 b4               Estimated Torque r=+0.962 y=1.458x-42.13 res95=9.8% | Math Block 7 Output - Torque (ft/lb) r=+0.962 y=1.075x-31.08 res95=9.9% | MAP r=+0.950 y=0.5629x+11.08 res95=14.1%
+360 b0-1 LE          Math Block 8 Output - Horsepower r=+0.964 y=0.01448x-6.221 res95=4.1% | Math Block 1 Output - Engine Power (kW) r=+0.964 y=0.0108x-4.64 res95=4.1% | Math Block 5 Output - TPS/BAP r=+0.912 y=0.006349x+0.1731 res95=8.6%
+360 b0-1 BE          % Fuel Cut r=-0.343 y=-0.0003994x+17.48 res95=82.5% | Math Block 2 Output - Lambda no CLL r=-0.279 y=-2.516e-05x+2.015 res95=16.1% | Lambda 1 r=-0.278 y=-2.492e-05x+2.057 res95=16.4%
+140 b0               APS (Main) r=+0.974 y=0.3823x+0.3016 res95=4.4% | E-Throttle 1 Target r=+0.966 y=0.3383x+3.286 res95=5.5% | TPS (Main) r=+0.963 y=0.3372x+3.345 res95=5.6%
+140 b6               E-Throttle 1 Target r=+0.973 y=0.3808x+0.4369 res95=3.8% | TPS (Main) r=+0.972 y=0.3803x+0.4888 res95=4.0% | Math Block 5 Output - TPS/BAP r=+0.971 y=0.3848x+0.5057 res95=4.1%
+142 b2               E-Throttle 1 Target r=+0.972 y=0.3274x+0.1081 res95=4.9% | TPS (Main) r=+0.968 y=0.3262x+0.1803 res95=5.0% | Math Block 5 Output - TPS/BAP r=+0.968 y=0.3301x+0.1936 res95=5.1%
+140 rpm              Engine Speed r=+0.995 y=0.9962x+6.283 res95=2.9% | DI Fuel Pressure Target r=+0.791 y=3.059x+536.3 res95=34.6% | Dwell Time r=-0.772 y=-0.0003039x+3.875 res95=5.3%
+141 b0-1 low12 LE    Overall Torque Request r=+0.962 y=0.08117x-120.9 res95=8.3% | Driver Torque Request r=+0.962 y=0.08117x-120.9 res95=8.3% | Estimated Torque r=+0.901 y=0.09438x-131.2 res95=16.6%
+141 b0-1 low12 BE    Idle Target r=+0.165 y=0.004949x+825.5 res95=53.7% | RPM Limit r=-0.158 y=-0.02053x+7483 res95=83.9% | IAT r=+0.154 y=0.0003897x+36.3 res95=43.4%
+141 b2-3 low12 LE    Estimated Torque r=+0.958 y=0.08303x-153.6 res95=12.3% | Math Block 7 Output - Torque (ft/lb) r=+0.958 y=0.06123x-113.3 res95=12.3% | MAP r=+0.950 y=0.03219x-32.27 res95=12.7%
+141 b2-3 low12 BE    E-Throttle 1 Target r=+0.349 y=0.004124x+3.095 res95=18.7% | Math Block 5 Output - TPS/BAP r=+0.349 y=0.004174x+3.182 res95=18.6% | TPS (Main) r=+0.349 y=0.004123x+3.135 res95=18.5%
+142 b0-1 low12 LE    Estimated Torque r=+0.962 y=0.08095x-120 res95=10.8% | Math Block 7 Output - Torque (ft/lb) r=+0.962 y=0.0597x-88.53 res95=10.8% | MAP r=+0.946 y=0.03113x-18.75 res95=14.0%
+142 b0-1 low12 BE    Injection Actual PW r=-0.269 y=-0.0002462x+2.651 res95=21.1% | Fuel per Cylinder (Primary) r=-0.248 y=-0.001688x+18.01 res95=41.1% | Ignition Table1 r=+0.246 y=0.001553x+21.12 res95=38.3%
+282 b0               Staged Injection Table (Sec) r=+0.344 y=0.09301x-12.33 res95=22.7% | Injection Actual PW (Sec) r=+0.339 y=0.01773x-2.351 res95=19.0% | Fuel per Cylinder (Sec) r=+0.336 y=0.03798x-5.138 res95=15.0%
+282 b3               Oil Temperature r=+0.936 y=2.603x-270.1 res95=19.6% | Ethanol Temperature r=-0.893 y=-0.373x+82.97 res95=37.0% | ECT r=+0.754 y=1.431x-107.2 res95=38.1%
+282 b4               Oil Temperature r=+0.674 y=4.151x-494.4 res95=41.4% | ECT r=+0.591 y=2.484x-258.7 res95=44.8% | Knock Cyl 3 Counter r=+0.590 y=0.5628x-76.59 res95=58.9%
+282 b3-4 LE          Oil Temperature r=+0.679 y=0.01624x-497.4 res95=41.1% | ECT r=+0.594 y=0.009707x-260.1 res95=44.6% | Knock Cyl 3 Counter r=+0.593 y=0.002198x-76.89 res95=58.8%
+282 b3-4 BE          Oil Temperature r=+0.937 y=0.01016x-271.2 res95=19.6% | Ethanol Temperature r=-0.893 y=-0.001455x+83.1 res95=37.1% | ECT r=+0.754 y=0.005587x-107.8 res95=38.1%
+3D1 b0               Oil Temperature r=+0.684 y=0.8522x-85.65 res95=41.1% | ECT r=+0.604 y=0.5137x-14.79 res95=43.7% | Knock Cyl 3 Counter r=+0.579 y=0.1119x-20.43 res95=57.0%
+280 b0               AC Request r=+0.414 y=0.1476x+0.0007501 res95=59.1% | AC Status r=-0.391 y=-1.316x+11.35 res95=59.1% | BAP r=-0.373 y=-0.05847x+98.9 res95=53.5%
+280 0.0              AC Request r=+0.957 y=0.9499x+0.02971 res95=3.0% | AC Status r=-0.861 y=-8.063x+10.86 res95=56.9% | AC Clutch r=+0.751 y=0.7525x+0.08204 res95=83.5%
+280 b0>>1            RPM Limit r=+0.362 y=90x+7289 res95=75.8% | BAP r=-0.349 y=-0.1205x+98.87 res95=54.1% | ECT r=+0.345 y=4.715x+79.87 res95=57.7%
+142 1.7              AC Clutch r=+0.956 y=0.9468x+0.02759 res95=2.8% | AC Status r=-0.913 y=-8.462x+10.58 res95=26.3% | AC Request r=+0.817 y=0.802x+0.1636 res95=83.6%
+141 1.7              constant
+141 5.7              Knock Threshold r=-0.744 y=-1.845x+1.94 res95=53.9% | Knock Level Normalised r=-0.730 y=-0.8089x+0.85 res95=18.0% | Knock Cyl 2 Level r=-0.727 y=-0.8865x+0.928 res95=28.8%
+141 3.x              constant
+361 1.5              constant
+370 b0-1 LE          Gear Ratio Calc. r=+0.285 y=0.7728x+47.08 res95=9.0% | Inlet Bank 2 Position r=-0.219 y=-0.08429x+8.76 res95=77.6% | Inlet Bank 1 Position r=-0.216 y=-0.0833x+7.901 res95=77.3%
+0D0 b4-5 LE          IAT r=-0.507 y=-0.0004938x+39.25 res95=33.7% | Inlet Bank 2 Position r=+0.473 y=0.002193x-1.987 res95=62.2% | Inlet Bank 1 Position r=+0.472 y=0.002197x-2.847 res95=61.8%
+0D0 b4-5 BE          Charge Temperature r=+0.378 y=0.0001267x+57.92 res95=37.0% | IAT r=+0.335 y=3.737e-05x+36.4 res95=40.0% | DI Fuel Pump Flow Percentage r=-0.242 y=-0.0002132x+72.19 res95=43.7%
+6E2 b3               Knock Cyl 3 Counter r=+0.810 y=0.6416x-61.37 res95=69.9% | Oil Temperature r=+0.783 y=4x-310 res95=36.5% | Knock Cyl 4 Counter r=+0.756 y=0.1542x-14.76 res95=66.4%
+6E2 b4               Post Start Enrich r=+0.740 y=0.05909x-5.632 res95=1.3% | Crank Enrich r=+0.433 y=0.04513x-4.302 res95=0.6% | ECT r=-0.411 y=-0.1475x+102.3 res95=62.4%
+speed raw            IAT r=-0.868 y=-0.004772x+41.46 res95=25.1% | Inlet Bank 1 Position r=+0.807 y=0.02119x-12.65 res95=46.9% | Inlet Bank 2 Position r=+0.807 y=0.02112x-11.74 res95=45.9%
+
+== exact checks
+  360 b2-40 vs Oil: median diff -0.40, 95th |diff| 0.90
+  360 b3-40 vs ECT: median diff -0.49, 95th |diff| 0.90
+  Gear Ratio Calc (rpm/kph): samples 5384; implied km/h per raw = median 0.0562, p5 0.0541, p95 0.0574
+  Gear Ratio Calc peaks: [(58, 33), (136, 74), (80, 102), (82, 134), (56, 164), (44, 183), (36, 876), (28, 3166)]
+  AC cross-tab 280 0.0 vs AC Request: {(0, 0): 2792, (0, 1): 83, (1, 0): 77, (1, 1): 3832}
+  AC cross-tab 142 1.7 vs AC Clutch: {(0, 0): 3200, (0, 1): 87, (1, 0): 86, (1, 1): 3411}
+  280 b0>>1 vs AC Status medians: {1: 5.136655360203733, 2: 2.5599885612637774, 3: 2.0}
+  Batt Voltage: 11.170956605372432 13.906203011080743 | MAP 12.079882898155368 98.26024068979154 | BAP 98.67268029734328

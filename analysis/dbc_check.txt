@@ -1,0 +1,64 @@
+018 STEERING_018: decoded 73381/73381
+    STEER_ANGLE_RAW        min -4531 max 4097 changes 23806
+    COUNTER                min 0 max 7 changes 73380
+    CHECKSUM               min 0 max 255 changes 71887
+0D0 CHASSIS_0D0: decoded 36674/36674
+    STEER_ANGLE_RAW        min -4113 max 4513 changes 14729
+    YAW_RAW                min -129 max 148 changes 12503
+    LATERAL_RAW            min -27 max 26 changes 21495
+    LONGITUDINAL_RAW       min -52 max 45 changes 22562
+0D1 SPEED_0D1: decoded 36674/36674
+    VEHICLE_SPEED          min 0.0 max 129.0396 changes 23444
+    BRAKE_PRESSURE_RAW     min 0 max 24 changes 884
+0D3 BRAKE_0D3: decoded 36673/36673
+    BRAKE_SWITCH           min 0 max 1 changes 76
+    DISTANCE_COUNTER       min 0 max 63 changes 25943
+    COUNTER                min 0 max 255 changes 36672
+0D4 WHEELS_0D4: decoded 36673/36673
+    WHEEL_FL               min 0.0 max 127.40690000000001 changes 23804
+    WHEEL_FR               min 0.0 max 127.238 changes 23968
+    WHEEL_RL               min 0.0 max 129.0959 changes 24685
+    WHEEL_RR               min 0.0 max 129.0959 changes 24635
+140 ENGINE_140: decoded 73344/73344
+    ACCEL_PEDAL_RAW        min 0 max 250 changes 8336
+    COUNTER                min 0 max 15 changes 73343
+    CLUTCH_SWITCH          min 0 max 1 changes 62
+    ENGINE_RPM             min 0 max 7360 changes 40035
+    PEDAL_PRESSED          min 0 max 1 changes 220
+    THROTTLE_RAW           min 1 max 233 changes 6878
+141 ENGINE_141: decoded 73344/73344
+    DRIVER_TORQUE_REQUEST_RAW min 1500 max 4095 changes 23122
+    ESTIMATED_TORQUE_RAW   min 1860 max 4095 changes 16461
+    ENGINE_RPM             min 0 max 7360 changes 40035
+142 ENGINE_142: decoded 73344/73344
+    TORQUE_RAW             min 1500 max 4095 changes 16718
+    AC_CLUTCH              min 0 max 1 changes 99
+    THROTTLE_RAW           min 6 max 255 changes 8243
+152 BODY_152: decoded 36759/36759
+    REVERSE_SWITCH         min 0 max 1 changes 6
+    PARKING_BRAKE          min 0 max 1 changes 2
+    BRAKE_SWITCH           min 0 max 1 changes 76
+    PARKING_LIGHTS         min 0 max 0 changes 0
+    LOW_BEAM               min 0 max 0 changes 0
+    HIGH_BEAM              min 0 max 0 changes 0
+280 STATUS_280: decoded 36677/36677
+    AC_REQUEST             min 0 max 1 changes 68
+282 BODY_282: decoded 12225/12225
+    SEATBELT_UNBUCKLED     min 0 max 1 changes 6
+284 START_284: decoded 7331/7331
+    CLUTCH_START_INTERLOCK min 0 max 1 changes 2
+360 ENGINE_360: decoded 14668/14668
+    OIL_TEMP               min 56 max 97 changes 173
+    COOLANT_TEMP           min 60 max 94 changes 280
+361 ENGINE_361: decoded 14668/14668
+    ENGINE_RUNNING_LIKELY  min 0 max 1 changes 1
+374 BODY_374: decoded 735/735
+    DOOR_OPEN              min 0 max 1 changes 3
+375 BODY_375: decoded 737/737
+    DOOR_UNLOCKED          min 3 max 3 changes 0
+6E2 TPMS_6E2_LIKELY: decoded 739/739
+    TIRE_A_RAW             min 96 max 254 changes 3
+    TIRE_B_RAW             min 92 max 254 changes 3
+    TIRE_C_RAW             min 92 max 254 changes 2
+    TIRE_D_RAW             min 92 max 254 changes 3
+018 checksum (sum b0-b6 + 0x18 + 8) & 0xFF == b7: 73381/73381

@@ -1,0 +1,60 @@
+RPM 140 b2-3 LE&0x3FFF by block:
+  brake           min 0 max 0
+  throttle        min 0 max 0
+  clutch          min 0 max 0
+  parking_brake   min 0 max 0
+  turn_left       min 0 max 0
+  turn_right      min 0 max 0
+  door            min 0 max 0
+  lights          min 0 max 0
+  engine_start    min 216 max 1580
+  rev_sweep       min 802 max 3137
+  steering        min 872 max 1036
+140 b0 == b4 == b5 always: True | b0 max 252
+140 b3.6 == (b0>0) in throttle: 2147 of 2147
+corr to 140 b0 pedal, throttle block (engine off):
+  142 b2         r=+0.997 range 14..123
+  140 b6         r=+0.997 range 11..102
+  141 b0-1 LE    r=+0.970 range 42460..44419
+  360 b4         r=+0.757 range 133..142
+corr to RPM, rev_sweep block:
+  141 b0-1 LE        r=+0.667 range 9692..10109
+  141 b2-3 LE        r=+0.056 range 10052..10796
+  141 b4-5 LE        r=-0.431 range 920..35895
+  141 b4-5 LE&3FFF   r=+1.000 range 802..3137
+  142 b0-1 LE        r=+0.117 range 9692..43168
+  142 b0-1 LE&7FFF   r=+0.056 range 9692..10436
+  140 b6             r=+0.785 range 8..24
+  360 b4             r=+0.033 range 25..71
+  360 b0             r=-0.262 range 0..255
+  360 b1             r=+0.907 range 1..7
+  370 b0-1 LE        r=-0.028 range 0..2
+  282 b0             r=+0.087 range 132..138
+  282 b4             r=-0.008 range 131..132
+  280 b0             r=+0.102 range 2..3
+steering block, candidate angle fields:
+  018 b0-1 BE signed   range -4586..4582 mean|step| 9.2 max|step| 55
+  018 b0-1 LE signed   range -32768..32767 mean|step| 4146.0 max|step| 65280
+  0D0 b0-1 LE signed   range -4596..4570 mean|step| 18.3 max|step| 116
+  0D0 b0-1 BE signed   range -32511..32767 mean|step| 7172.9 max|step| 65024
+  corr 018 BE vs 0D0 LE: -0.9998
+  0D0 b2-3 LE s    range -2..3 corr|angle| +0.033
+  0D0 b6-7 LE s    range -514..511 corr|angle| -0.167
+  141 b2-3 LE      range 10208..10700 corr|angle| -0.161
+  141 b4-5 LE      range 33640..33804 corr|angle| -0.223
+  142 b0-1 LE      range 9848..43108 corr|angle| -0.184
+  370 b0-1 LE      range 0..667 corr|angle| +0.805
+  140 rpm          range 872..1036 corr|angle| -0.223
+temps 360 b2, b3 (raw-40 C), first/last: ['27/27', '46/66']
+brake 0D1 b2 max: 84 | 0D1 other bytes: {0: [0], 1: [0], 3: [0]}
+0D4, 156 all zero (no motion): True True
+361 values b0: [0] b1: [8, 40] b3: [219]
+374 per-byte values: {0: ['08'], 1: ['00', '40'], 2: ['00'], 3: ['00', '01'], 4: ['00'], 5: ['20'], 6: ['00'], 7: ['00']}
+375 per-byte values: {0: ['03'], 1: ['00', '01'], 2: ['00'], 3: ['00', '08', '0C'], 4: ['00'], 5: ['00'], 6: ['00'], 7: ['10']}
+37A per-byte values: {0: ['00'], 1: ['00'], 2: ['00'], 3: ['00'], 4: ['00'], 5: ['04', '10'], 6: ['00'], 7: ['00']}
+3D1 per-byte values: {0: '14v', 1: ['10'], 2: ['00'], 3: ['00'], 4: ['00'], 5: ['00'], 6: ['00'], 7: ['00']}
+280 per-byte values: {0: ['02', '03'], 1: '16v', 2: ['00'], 3: ['00'], 4: ['00'], 5: ['00'], 6: ['00'], 7: ['00']}
+282 per-byte values: {0: ['7D', '84', '8A'], 1: '16v', 2: ['FA'], 3: ['81'], 4: ['82', '83', '84', '85', '86'], 5: ['00', '01'], 6: ['21'], 7: ['00']}
+284 per-byte values: {0: ['C0'], 1: '16v', 2: ['00'], 3: ['02', '03'], 4: ['00'], 5: ['00', '80', '90'], 6: ['00'], 7: ['00']}
+372 per-byte values: {0: ['00'], 1: '16v', 2: ['00'], 3: ['00'], 4: ['00'], 5: ['00'], 6: ['00'], 7: ['00']}
+370 per-byte values: {0: '199v', 1: ['00', '01', '02'], 2: ['00', '23'], 3: ['00', '01'], 4: ['00'], 5: '16v', 6: ['00'], 7: ['00']}

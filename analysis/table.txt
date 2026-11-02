@@ -1,0 +1,38 @@
+   ID DLC   count      ms          endian vary           counter / checksum
+0x000   8       1       0    undetermined                 
+0x018   8  183402    10.0  big (Motorola) 0 1 2 3 7      b3 low nibble /8 b7 sum+0x20
+0x0D0   8   91660    20.0  little (Intel) 0 1 2 3 4 5 6 7  
+0x0D1   4   91660    20.0  little (Intel) 0 1 2           
+0x0D2   8   91660    20.0    undetermined 2 3 4           
+0x0D3   7   91659    20.0    undetermined 0 1 2 3 4 6    b6 byte /256 
+0x0D4   8   91659    20.0  little (Intel) 0 1 2 3 4 5 6 7  
+0x140   8  183278    10.0  little (Intel) 0 1 2 3 4 5 6  b1 low nibble /16 
+0x141   8  183278    10.0  little (Intel) 0 1 2 3 4 5 6   
+0x142   8  183278    10.0  little (Intel) 0 1 2           
+0x144   8   91639    20.0    undetermined                 
+0x152   8   92030    20.0    undetermined 0 1 6 7        b1 byte /16 
+0x156   8   91936   20.29    undetermined                 
+0x280   8   91675    20.0    undetermined 0 1            b1 low nibble /16 
+0x282   8   30646   59.99    undetermined 0 1 3 4 5      b1 byte /32 
+0x284   8   18391  100.05    undetermined 0 1 3 5        b1 low nibble /16 
+0x360   8   36656    50.0  little (Intel) 0 1 2 3 4       
+0x361   8   36656    50.0    undetermined 1 4            b4 low nibble /16 
+0x370   8   36263   50.55  little (Intel) 0 1 2 3 5      b5 low nibble /16 
+0x372   8   18339   99.96    undetermined 1 2            b1 byte /16 
+0x374   8    1848  999.94    undetermined 1 3             
+0x375   8    1856  999.95    undetermined 0 1 2 3 5       
+0x37A   8    1841  1000.8    undetermined 5               
+0x3D1   8   15323  119.99    undetermined 0 1             
+0x440   8    4743  389.85    undetermined 0 1             
+0x442   8    4746  389.69    undetermined 0 1             
+0x44D   8    4745  389.84    undetermined 0 1             
+0x46C   8    4727  389.81    undetermined 0 1 2           
+0x4C1   8    1834  999.99    undetermined                 
+0x4C3   8    1835  999.96    undetermined                 
+0x4C6   8    1834  999.49    undetermined                 
+0x4C8   8    1813 1011.13    undetermined                 
+0x4DC   8    1834  999.87    undetermined                 
+0x4DD   8    1834  999.53    undetermined                 
+0x63B   8    3679  499.98    undetermined                 
+0x6E1   8    1832  999.95    undetermined 5               
+0x6E2   8    1839  999.95    undetermined 3 4 5 6         

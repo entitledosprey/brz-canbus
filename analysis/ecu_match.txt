@@ -1,0 +1,36 @@
+018: 
+0D0: L MGP r=+0.716 [LE start 62 len 1] y=30.58x-67.12; L Fuel per Cylinder (Primary) r=+0.692 [LE start 60 len 3] y=1.688x+9.664; L IAT r=-0.544 [LE start 42 len 5] y=-0.5271x+39.19; B IAT r=-0.512 [BE msb 46 len 9] y=-0.03189x+39.27
+0D1: L IAT r=-0.868 [LE start 0 len 12] y=-0.004773x+41.46; B IAT r=-0.844 [BE msb 11 len 11] y=-0.009625x+40.99; L Sec Injection Lockout r=+0.535 [LE start 8 len 1] y=1.007x+0.4124; B Sec Injection Lockout r=+0.532 [BE msb 8 len 9] y=0.00391x+0.4103
+0D2: 
+0D3: L Knock Cyl 3 Counter r=+0.870 [LE start 34 len 15] y=0.0002064x-0.006172
+0D4: L IAT r=-0.868 [LE start 16 len 12] y=-0.004792x+41.47; B IAT r=-0.867 [BE msb 27 len 12] y=-0.004781x+41.47; L Sec Injection Lockout r=+0.535 [LE start 56 len 1] y=1.006x+0.4111; B Sec Injection Lockout r=+0.502 [BE msb 40 len 9] y=0.003086x+0.1731
+140: L Engine Speed r=+0.995 [LE start 15 len 14] y=0.4981x+5.903; B Engine Speed r=+0.992 [BE msb 28 len 9] y=15.47x+173.8; L APS (Main) r=+0.975 [LE start 0 len 8] y=0.3814x+0.2964; B APS (Main) r=+0.975 [BE msb 7 len 9] y=0.1909x+0.2284; L E-Throttle 1 Target r=+0.973 [LE start 40 len 16] y=0.001481x+0.4481; B E-Throttle 1 Target r=+0.973 [BE msb 55 len 9] y=0.1904x+0.4365
+141: L Engine Speed r=+0.995 [LE start 32 len 13] y=0.9961x+6.212; B Engine Speed r=+0.991 [BE msb 44 len 9] y=16.01x-32.25; L Driver Torque Request r=+0.963 [LE start 0 len 12] y=0.0811x-120.8; L Estimated Torque r=+0.957 [LE start 16 len 12] y=0.08294x-153.4; B Driver Torque Request r=+0.946 [BE msb 11 len 10] y=0.2938x-103.6; B Estimated Torque r=+0.942 [BE msb 27 len 9] y=0.6601x-152.5
+142: B E-Throttle 1 Target r=+0.972 [BE msb 23 len 9] y=0.1632x+0.1233; L E-Throttle 1 Target r=+0.972 [LE start 8 len 16] y=0.001276x-0.02148; L Estimated Torque r=+0.961 [LE start 0 len 12] y=0.08088x-119.9; L AC Clutch r=+0.959 [LE start 15 len 1] y=0.9503x+0.02542; B AC Clutch r=+0.959 [BE msb 15 len 9] y=0.003738x-0.2722; B Estimated Torque r=+0.955 [BE msb 11 len 9] y=0.6004x-99.19
+144: 
+152: L IAT r=+0.748 [LE start 50 len 2] y=4.75x+36.35; B IAT r=+0.748 [BE msb 51 len 9] y=0.03711x+35.76; L RPM Limit r=-0.712 [LE start 50 len 1] y=-414.7x+7471; B RPM Limit r=-0.712 [BE msb 50 len 9] y=-1.62x+7523
+156: 
+280: L AC Request r=+0.955 [LE start 0 len 1] y=0.9487x+0.0303; B AC Request r=+0.955 [BE msb 0 len 9] y=0.0037x+0.003236
+282: L Oil Temperature r=+0.943 [LE start 25 len 3] y=5.045x+65.5; B Oil Temperature r=+0.937 [BE msb 27 len 9] y=0.08131x+61.77; L ECT r=-0.879 [LE start 40 len 2] y=-7.527x+91.94; B ECT r=-0.879 [BE msb 41 len 9] y=-0.05881x+92.89; L BAP r=+0.802 [LE start 25 len 1] y=0.3459x+98.51; B BAP r=+0.776 [BE msb 25 len 9] y=0.001027x+98.39
+284: 
+360: L Oil Temperature r=+1.000 [LE start 8 len 16] y=0.003902x-39.47; B Oil Temperature r=+1.000 [BE msb 23 len 9] y=0.4926x-38.15; L ECT r=+0.999 [LE start 16 len 16] y=0.003888x-39.45; B ECT r=+0.999 [BE msb 31 len 9] y=0.4996x-39.49; L Knock Cyl 3 Counter r=-0.973 [LE start 21 len 1] y=-3.768x+3.909; L Estimated Torque r=+0.962 [LE start 24 len 16] y=0.005699x-42.93
+361: 
+370: 
+372: L BAP r=+0.712 [LE start 12 len 1] y=0.3167x+98.55; B BAP r=+0.712 [BE msb 12 len 9] y=0.001237x+98.55
+374: 
+375: L RPM Limit r=+0.651 [LE start 46 len 1] y=339.2x+7133; B RPM Limit r=+0.651 [BE msb 46 len 9] y=1.325x+7133
+37A: 
+3D1: L RPM Limit r=+0.884 [LE start 6 len 1] y=442.3x+7044; L IAT r=+0.729 [LE start 3 len 3] y=1.053x+35.73; B IAT r=+0.724 [BE msb 5 len 9] y=0.01606x+35.29; L Oil Temperature r=+0.706 [LE start 1 len 6] y=1.76x+21.85; B Oil Temperature r=+0.684 [BE msb 6 len 9] y=0.2127x+23.53; L ECT r=+0.604 [LE start 4 len 3] y=9.166x+50.76
+440: 
+442: 
+44D: 
+46C: 
+4C1: 
+4C3: 
+4C6: 
+4C8: 
+4DC: 
+4DD: 
+63B: 
+6E1: 
+6E2: L Knock Cyl 2 Counter r=-0.988 [LE start 42 len 1] y=-0.9863x+0.9863; B Knock Cyl 2 Counter r=-0.987 [BE msb 44 len 9] y=-0.002196x+0.9993; L Crank Enrich r=+0.925 [LE start 49 len 1] y=32.06x-3.772e-16; B Crank Enrich r=+0.925 [BE msb 49 len 9] y=0.1252x-15.9; L Oil Temperature r=-0.885 [LE start 51 len 1] y=-25.68x+90.63; L BAP r=-0.870 [LE start 50 len 1] y=-0.3747x+98.86
